@@ -108,10 +108,6 @@ This project requires the following libraries:
 
 You can find a complete list of libraries in the `requirements.txt` file, which can be installed using pip.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
 ## Contributing
 
 Contributions to this project are welcome! If you would like to contribute, please follow these steps:
