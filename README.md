@@ -31,7 +31,6 @@ Includes supervised learning problems, with two main types: **classification** a
     - [`iris_mlp_classifier.ipynb`](notebooks/supervised/classification/neural_network/mlp_classifier/iris_mlp_classifier.ipynb): Using MLP network for Iris flower classification.
   
   - **[`perceptron/`](notebooks/supervised/classification/neural_network/perceptron)**:
-    - [`__pycache__/`](notebooks/supervised/classification/neural_network/perceptron/__pycache__): Contains compiled Python files for Perceptron implementation.
     - [`diabetes_perceptron.ipynb`](notebooks/supervised/classification/neural_network/perceptron/diabetes_perceptron.ipynb): Diabetes classification using Perceptron.
     - [`iris_perceptron.ipynb`](notebooks/supervised/classification/neural_network/perceptron/iris_perceptron.ipynb): Iris flower classification using Perceptron.
     - [`perceptron_from_scratch.py`](notebooks/supervised/classification/neural_network/perceptron/perceptron_from_scratch.py): Python file implementing Perceptron from scratch without using specialized libraries.
