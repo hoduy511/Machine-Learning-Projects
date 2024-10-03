@@ -96,7 +96,7 @@ To use the notebooks in this project, follow these steps:
 
 ## Requirements
 
-This project requires the following libraries:
+This project requires the following:
 
 - Python 3.10.12
 - Jupyter Notebook
