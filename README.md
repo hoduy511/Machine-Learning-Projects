@@ -27,7 +27,7 @@ Includes supervised learning problems, with two main types: **classification** a
 
 - **[`neural_network/`](notebooks/supervised/classification/neural_network)**:
   - **[`mlp_classifier/`](notebooks/supervised/classification/neural_network/mlp_classifier)**:
-    - [`diabetes_mlp_classifier copy.ipynb`](notebooks/supervised/classification/neural_network/mlp_classifier/diabetes_mlp_classifier%20copy.ipynb): Using MLP network for diabetes classification.
+    - [`diabetes_mlp_classifier.ipynb`](notebooks/supervised/classification/neural_network/mlp_classifier/diabetes_mlp_classifier.ipynb): Using MLP network for diabetes classification.
     - [`iris_mlp_classifier.ipynb`](notebooks/supervised/classification/neural_network/mlp_classifier/iris_mlp_classifier.ipynb): Using MLP network for Iris flower classification.
   
   - **[`perceptron/`](notebooks/supervised/classification/neural_network/perceptron)**:
@@ -57,14 +57,26 @@ Contains unsupervised learning problems, including clustering algorithms.
   - [`kmeans_from_scratch.ipynb`](notebooks/unsupervised/clustering/kmeans/kmeans_from_scratch.ipynb): Implementation of the K-means algorithm from scratch without using specialized libraries.
   - [`news_group_clustering.ipynb`](notebooks/unsupervised/clustering/kmeans/news_group_clustering.ipynb): Clustering news articles into topic groups using K-means.
 
+### [`data/`](data)
+Contains datasets used in the project.
+
+#### 1. [`classification/`](data/classification)
+- `SMSSpamCollection`: Dataset for spam classification.
+- `and_gate_datasets.csv`: Dataset for AND gate classification.
+
+#### 2. [`regression/`](data/regression)
+- `advertising.csv`: Dataset for advertising effectiveness prediction.
+- `housing.csv`: Dataset for housing prices.
+- `student_performance.csv`: Dataset for student performance prediction.
+
 ## Usage
 
 To use the notebooks in this project, follow these steps:
 
 1. **Clone the Repository**: Clone the repository to your local machine using:
    ```bash
-   git clone https://github.com/hoduy511/Machine-Learning-Notebooks.git
-   cd Machine-Learning-Notebooks
+   git clone https://github.com/hoduy511/Machine-Learning-Projects.git
+   cd Machine-Learning-Projects
    ```
 
 2. **Set Up the Environment**: It is recommended to use a virtual environment to manage dependencies. You can create and activate a virtual environment using the following commands:
